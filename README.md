@@ -99,24 +99,38 @@ http://localhost/personal-finance-tracker
 finance_tracker/
 
 ├── index.php                 # Landing page
+
 ├── login.php                 # User login
+
 ├── register.php              # User registration
+
 ├── dashboard.php             # Main dashboard
+
 ├── transactions.php          # Transaction management
+
 ├── categories.php            # Category management
+
 ├── reports.php               # Financial reports
+
+
 ├── logout.php                # Logout handler
+
 ├── config/
 │   └── database.php          # Database configuration
+
+
 ├── includes/
 │   ├── header.php            # Common header
 │   ├── footer.php            # Common footer
 │   └── auth.php              # Authentication functions
+
+
 ├── assets/
 │   ├── css/
 │   │   └── style.css         # Custom styles
 │   └── js/
 │       └── main.js           # JavaScript functionality
+
 └── sql/
     └── database.sql          # Database schema
 
